@@ -3,11 +3,26 @@ def Main():
     
     print("Hi, this is a program that switches temperature between Fahrenheit and Celsius", end = "\n\n")
 
-    user_input = int(input("Enter the temperature in Celsius (Only use numbers): "))
+    user_input = int(input("Enter the temperature in Fahrenheit (Only use numbers): "))
 
-    formula = (user_input / (9/5)) + 32
+    #if user_input.format = "str"
 
-    print(formula)
+
+
+
+
+
+
+
+
+
+
+
+
+
+    formula = (user_input - 32) * 5/9
+
+    print(f"{formula} Celsius degrees.")
 
 
 
