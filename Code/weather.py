@@ -16,7 +16,7 @@ def Main():
     temp = soup.find('div', attrs={'class': 'BNeawe iBp4i AP7Wnd'}).text
     str = soup.find('div', attrs={'class': 'BNeawe tAd8D AP7Wnd'}).text
 
-    data = str.split()
+    data = str.split('\n')
     time = data[0]
     sky = data[1]
     #news = data[2]
