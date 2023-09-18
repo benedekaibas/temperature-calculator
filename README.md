@@ -21,6 +21,8 @@ of it as well.
 #DESCRIPTION OF WEATHER.PY
 
 Weather.py is a simple program that gets information
-based on request from the internet and shows the information
+based on the request from the internet and shows the information
 for the user.
 
+EDIT: I added an exercise.py file to keep track of my homework, but this file will be removed from the project
+as soon as I am not lazy to create a repository for that.
