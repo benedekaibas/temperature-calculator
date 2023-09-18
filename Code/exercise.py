@@ -78,4 +78,11 @@ print(entryway())
 # function that calculates allowance for tree
 
 def Allowance_For_Tree():
+    #the equations is A = pi * r**2
+    pi = math.pi
+    radius = 4 
+    final = pi * radius**2
+    return final 
+
+print(Allowance_For_Tree())
 
