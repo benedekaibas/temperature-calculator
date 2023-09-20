@@ -18,9 +18,7 @@ print(calculation(user_num, user_power))"""
 
 #---------------------------------------------------------#
 
-
-#function that calculates both walls
-def walls():
+"""def walls():
     parameters = [18, 7, 27, 7]
     wall = parameters[0] * parameters[1]
     wall_two = parameters[2] * parameters[3]
@@ -84,5 +82,25 @@ def Allowance_For_Tree():
     final = pi * radius**2
     return final 
 
-print(Allowance_For_Tree())
+print(Allowance_For_Tree())"""
+
+def rectangle(width, length):
+    a = width * length
+    return a 
+
+def triangle(base, leg_one, leg_two):
+    a = base * leg_one * leg_two
+    return a 
+
+
+#this is a sample that how can I call the rectangle function for other functions
+def fal():
+    result = rectangle(18, 18)
+    return result 
+    
+print(fal())
+
+def triangle(base, leg_one, leg_two):
+    a = base * leg_one * leg_two
+    return a 
 
