@@ -18,12 +18,7 @@ print(calculation(user_num, user_power))"""
 
 #---------------------------------------------------------#
 
-"""def walls():
-    parameters = [18, 7, 27, 7]
-    wall = parameters[0] * parameters[1]
-    wall_two = parameters[2] * parameters[3]
-    final = wall, wall_two
-    return final
+"""
 
 print(walls())
 
@@ -88,32 +83,63 @@ def rectangle(width, length):
     a = width * length
     return a 
 
-def triangle(base, leg_one, leg_two):
-    a = base * leg_one * leg_two
-    return a 
-
-
-#this is a sample that how can I call the rectangle function for other functions
-def fal():
-    result = rectangle(18, 18)
-    return result 
-    
-print(fal())
-
-def triangle(leg):
-    a = 1/2 * (leg**2)
+def triangle(base,leg):
+    a = base * (leg**2)
     return a 
 
 def square(a):
     result = a * a 
     return result
 
-def circle(pi, r):
+def circle(r):
     pi = math.pi
     result = pi * 4 * r 
     return result
 
+#NOW WE USE THE FUNCTIONS INSIDE THE HOUSE PARTS' FUNCIONS
 
+def walls():
+    wall_one = rectangle(18, 7)
+    wall_two = rectangle(27, 7)
+    result = wall_one, wall_two
+    return result
+
+def floor():
+    result = rectangle(18 * 27)
+    return result
+
+def gables():
+    result = triangle(18, 12.73)
+    return result
+
+print(f"{gables(): .{1}f}")
+
+def roofing():
+    result = rectangle(12.73, 27)
+    return result
+
+def windows():
+    result = rectangle(8, 3)
+    return result 
+
+def entryway():
+    result = square(5)
+    return result
+
+print(entryway())
+
+def Allowance_For_Tree():
+    result = circle(4)
+    return result
+
+print(Allowance_For_Tree())
+
+
+#checking if the allowance_for_tree gives back the right value
+pi = math.pi
+r = 4
+result = pi * r**2
+print(result)
 
 
 
