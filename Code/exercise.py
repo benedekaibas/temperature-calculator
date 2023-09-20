@@ -100,7 +100,23 @@ def fal():
     
 print(fal())
 
-def triangle(base, leg_one, leg_two):
-    a = base * leg_one * leg_two
+def triangle(leg):
+    a = 1/2 * (leg**2)
     return a 
+
+def square(a):
+    result = a * a 
+    return result
+
+def circle(pi, r):
+    pi = math.pi
+    result = pi * 4 * r 
+    return result
+
+
+
+
+
+
+
 
