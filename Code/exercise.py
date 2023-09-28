@@ -79,70 +79,65 @@ def Allowance_For_Tree():
 
 print(Allowance_For_Tree())"""
 
-def rectangle(width, length):
-    a = width * length
-    return a 
+def main():
 
-def triangle(base,leg):
-    a = base * (leg**2)
-    return a 
+    #Define the "constants" (given measurements) provided
+    #       in the README; add comments defining each group
+    def rectangle(width, length):
+        a = width * length
+        return a 
 
-def square(a):
-    result = a * a 
-    return result
+    def triangle(leg):
+        a = (leg**2)
+        return a 
 
-def circle(r):
-    pi = math.pi
-    result = pi * 4 * r 
-    return result
+    def square(a):
+        result = a * a 
+        return result
 
-#NOW WE USE THE FUNCTIONS INSIDE THE HOUSE PARTS' FUNCIONS
+    def circle(r):
+        pi = math.pi
+        result = pi * 4 * r 
+        return result
 
-def walls():
-    wall_one = rectangle(18, 7)
-    wall_two = rectangle(27, 7)
-    result = wall_one, wall_two
-    return result
+#these are the functions for the different parts of the house 
+    def longerWall():
+        longer = rectangle(27, 7) * 2 
+        return longer
+    print(longerWall())
+    def shorterWall():
+        result = rectangle(18, 7) * 2 
+        return result
+    print(shorterWall())
+    def floor():
+        result = rectangle(18, 27)
+        return result
+    print(floor())
+    def gables():
+        result = triangle(12.73) * 18 * 1/2
+        return result
+    print(gables())
+    def roofing():
+        result = rectangle(12.73, 27) * 2
+        return result
+    print(roofing())
+    def windows():
+        result = rectangle(8, 3) * 6 
+        return result 
+    print(windows())
+    def entryway():
+        result = square(5)
+        return result
+    print(entryway())
+    def Allowance_For_Tree():
+        result = circle(4)
+        return result
+    print(Allowance_For_Tree())
 
-def floor():
-    result = rectangle(18 * 27)
-    return result
+    total = longerWall() + shorterWall() + floor() + gables() + roofing() + windows() + entryway() + Allowance_For_Tree()
 
-def gables():
-    result = triangle(18, 12.73)
-    return result
+    print(f"This is total: {total}")
 
-print(f"{gables(): .{1}f}")
-
-def roofing():
-    result = rectangle(12.73, 27)
-    return result
-
-def windows():
-    result = rectangle(8, 3)
-    return result 
-
-def entryway():
-    result = square(5)
-    return result
-
-print(entryway())
-
-def Allowance_For_Tree():
-    result = circle(4)
-    return result
-
-print(Allowance_For_Tree())
-
-
-#checking if the allowance_for_tree gives back the right value
-pi = math.pi
-r = 4
-result = pi * r**2
-print(result)
-
-
-
-
-
+if __name__ == "__main__":
+    main()
 
