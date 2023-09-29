@@ -1,16 +1,24 @@
-#COMMON PREFIX FINDER
+#PALINDROME NUMBER
 
 def main():
-    strs = ["cat", "dog", "door", "doorbell"]
-    first = strs[0]
-    last = len(strs) - 1
-    result = first, last
-    return result
+    inputNumber = (input("Number: "))
+    backwards = inputNumber[1] + inputNumber[0]
+    return backwards
 
 
 
 
-print(main())
+
 
 if __name__ == "__main__":
-    main()
+    print(main())
+
+
+
+
+
+
+number = 32
+string = str(number)
+back = len(str(number))
+print(back)
