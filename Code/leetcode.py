@@ -1,9 +1,14 @@
 #PALINDROME NUMBER
 
 def main():
-    inputNumber = (input("Number: "))
-    backwards = inputNumber[1] + inputNumber[0]
-    return backwards
+    #asking user input and converting to string
+    number = str(input("Enter a number: "))
+    #reversing the digits
+    i = ""
+    for i in number:
+        print("get")
+
+    return 
 
 
 
@@ -11,14 +16,7 @@ def main():
 
 
 if __name__ == "__main__":
-    print(main())
+   print(main())
 
 
 
-
-
-
-number = 32
-string = str(number)
-back = len(str(number))
-print(back)
