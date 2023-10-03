@@ -1,7 +1,7 @@
 import random 
 
 lower = 1
-upper = 2
+upper = 5
 takeGuess = int(input("Take a guess: "))
 guess = random.randint(lower, upper)
 
@@ -18,7 +18,7 @@ while True:
         print("You did not find the number, plus your guessed number is above the secret number! ")
     else:
         print("You guessed the number!")
-        break
+    break
 
 
 
