@@ -27,8 +27,16 @@ while (takeGuess != guess):
 
 while (takeGuess == guess):
     print("Congrats, you won this game!")
-    str(input("Do you want to play another game? Y / N:"))
-    
+    newGame = str(input("Do you want to play another game? Y / N:"))
+    if newGame == "Y":
+        takeGuess = int(input("Take a guess: "))
+    elif newGame == "N":
+        print("Thanks for playing!")
+        break
+    else:
+        print("Sorry, but your input was wrong!")
+
+
     
     
 
