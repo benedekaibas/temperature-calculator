@@ -23,7 +23,12 @@ while (takeGuess != guess):
         print("You are outside of the range")
         takeGuess = int(input("Take a guess: "))
     else:
-        print("You won!")
+        print("Your input is wrong!")
+
+while (takeGuess == guess):
+    print("Congrats, you won this game!")
+    str(input("Do you want to play another game? Y / N:"))
+    
     
     
 
