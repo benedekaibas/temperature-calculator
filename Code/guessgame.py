@@ -4,13 +4,13 @@ lower = 1
 upper = 10
 takeGuess = int(input("Take a guess: "))
 guess = random.randint(lower, upper)
-
+#functions for determining the guess lower or higher
 def lower():
     return takeGuess < guess
 
 def upper():
     return takeGuess > guess
-
+#the engine of the game is this part
 while (takeGuess != guess):
     #takeGuess = int(input("Take a guess: "))
     if (takeGuess != guess and lower() == True):
@@ -24,7 +24,7 @@ while (takeGuess != guess):
         takeGuess = int(input("Take a guess: "))
     else:
         print("Your input is wrong!")
-
+#if the user's input is correct
 while (takeGuess == guess):
     print("Congrats, you won this game!")
     newGame = str(input("Do you want to play another game? Y / N:"))

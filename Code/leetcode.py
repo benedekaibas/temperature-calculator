@@ -1,22 +1,8 @@
-#PALINDROME NUMBER
-
-def main():
-    #asking user input and converting to string
-    number = str(input("Enter a number: "))
-    #reversing the digits
-    i = ""
-    for i in number:
-        print("get")
-
-    return 
-
-
-
-
-
-
-if __name__ == "__main__":
-   print(main())
-
-
-
+import time 
+userInput = str("THis is an input: ")
+time = time.sleep(5)
+print(time)
+if userInput.time.sleep > time:
+    print("You did not take input")
+else:
+    print('Gj, you know how to use the keyboard!')
