@@ -25,6 +25,3 @@ while (takeGuess != guess):
     else:
         print("Your input is wrong!")
 
-while (takeGuess == guess):
-    print("Congrats, you won this game!")
-    str(input("Do you want to play another game? Y / N:"))
