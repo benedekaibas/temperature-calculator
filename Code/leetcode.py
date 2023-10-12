@@ -20,7 +20,7 @@ def inorder(root):
         inorder(root.left)
         print (root.key)
         inorder(root.right)
- 
+        
  
 # A utility function to insert a new node with given key in BST
 def insert( node, key):
@@ -49,7 +49,7 @@ def minValueNode( node):
         current = current.left 
  
     return current 
- 
+
 # Given a binary search tree and a key, this function
 # delete the key and returns the new root
 def deleteNode(root, key):

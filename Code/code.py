@@ -1,24 +1,14 @@
-"""
-Input: s = "abcd", t = "abcde"
-Output: "e"
-Explanation: 'e' is the letter that was added.
-
-"""
+i = 0
+start = 0 
+end = 10
 
 
-def main():
-    x = str(input("letters: "))
-    y = str(input("second letters"))
-    
+while i >= start and i < 10:
+    i += 1
+    print(f"{i} : {i}")
 
 
-
-
-
-
-
-if __name__ == "__main__":
-    main()
+for 
 
 
 
