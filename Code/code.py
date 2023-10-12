@@ -8,7 +8,7 @@ while i >= start and i < 10:
     print(f"{i} : {i}")
 
 
-for 
+
 
 
 
