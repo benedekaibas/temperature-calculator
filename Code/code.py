@@ -3,14 +3,14 @@
 
 #I made this list for an example
 my_list = [1, 0.3, "abc"]
-
+"""
 try:
-    type(my_list) == str:
-        print(my_list)
+   # type(my_list) == str:
+       # print(my_list)
 except ValueError:
     print("dsa")
 
-
+"""
 
 
 
