@@ -3,15 +3,15 @@
 fruit = ["apple", "banana", "orange", "apple", "strawberry"]
 
 fruit.append("pear")
-print(fruit)
+print(f"This is the list we created: {fruit}")
 index = fruit.index("orange")
-print(index)
+print(f"This is the index of the element we want to get, in this case it is orange: {index}")
 location = fruit[4]
-print(location)
+print(f"We searched for the 4. element of the list, it is this: {location}")
 length = len(fruit)
-print(length)
+print(f"The length of the list {length}")
 count = fruit.count("apple")
-print(count)
+print(f"We count how many times does apple appear in our list, the result is: {count}")
 
 
 
