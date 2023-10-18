@@ -1,17 +1,17 @@
-#Write a program that returns data from a list based on the type of the data 
-#(Str, int, etc.) and stores them in different variables
+# After finishing the program get in on TermWorld
 
-#I made this list for an example
-my_list = [1, 0.3, "abc"]
-"""
-try:
-   # type(my_list) == str:
-       # print(my_list)
-except ValueError:
-    print("dsa")
+fruit = ["apple", "banana", "orange", "apple", "strawberry"]
 
-"""
-
+fruit.append("pear")
+print(fruit)
+index = fruit.index("orange")
+print(index)
+location = fruit[4]
+print(location)
+length = len(fruit)
+print(length)
+count = fruit.count("apple")
+print(count)
 
 
 
