@@ -21,7 +21,7 @@ def get_values_more_30(column: str = "") -> bool:
             break
     return col_result
 def main():
-    data = load_file(filename = "Users\kaiba\cs introduction (you can delete it)\temperature-calculator-1\temperature-calculator\Code\classwork\wages_by_education.csv")
+    data = load_file(filename = "C:\Users\kaiba\cs introduction (you can delete it)\temperature-calculator-1\temperature-calculator\Code\classwork\wages_by_education.csv")
     global COLS #global variable that will be accessable in other functions too 
     global ROWS
     COLS = data[0]
