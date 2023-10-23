@@ -1,32 +1,12 @@
-import random 
-#making rectangle 
-def length():
-    x = 5 
-    y = 4
-    result = x, y
-    return result
-print(length())
-def width():
-    x = 3 
-    y = 2
-    result = x, y
-    return result
-print(width())
+import random
+numbers_x = [0,1,2,3,4,5,6,7,8,9,10]
+numbers_y = [0,1,2,3,4,5,6,7,8,9,10]
 
-def rectangle(length, width):
-    area = length * width 
-    return area
+x = random.choice(numbers_x)
+y = random.choice(numbers_y)
 
-
-print(rectangle(length()))
-
-
-
-
-
-
-
-
+random_coordinate = x, y
+print(random_coordinate)
 
 
 
