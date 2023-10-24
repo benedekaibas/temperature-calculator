@@ -2,6 +2,14 @@ NOTES FOR GATORDAY
 
 Information = https://cs.allegheny.edu
 
+specialization courses: at least one each semester in every major
+CMPSC 580: ONLY IN SPRINGS
+CMPSC 600 AND 610: ONLY FALL
+
+Consider:
+    internship courses  
+    ALIC co-op courses
+    
 
 
 
