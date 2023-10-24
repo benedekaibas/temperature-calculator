@@ -9,7 +9,7 @@ def load_file(filename: str = "") -> list:
     return data 
 
 def get_values_more_30(column: str = "") -> bool:
-    # Returns true if the column contains wage more than 30 #
+    """ Returns true if the column contains wage more than 30 """
     col_result = False 
     col_values = []
     index = COLS.index(column)
@@ -21,7 +21,7 @@ def get_values_more_30(column: str = "") -> bool:
             break
     return col_result
 def main():
-    data = load_file(filename = "C:\Users\kaiba\cs introduction (you can delete it)\temperature-calculator-1\temperature-calculator\Code\classwork\wages_by_education.csv")
+    data = load_file(filename = r"C:\Users\kaiba\cs introduction (you can delete it)\temperature-calculator-1\temperature-calculator\Code\classwork\wages_by_education.csv")
     global COLS #global variable that will be accessable in other functions too 
     global ROWS
     COLS = data[0]
