@@ -35,22 +35,16 @@ def calculation():
     user_y = int(input("Enter coordinate y: "))
     #store = user_x, user_y
     return user_x, user_y
-
-def in_between(user_x, user_y):
-    userInput = int(input("Enter a number coordinate x: "))
-
-    if x <= userInput <= user_x:
-        print("adsm")
+def in_between()
+    calculation()
+    #test_x = user_x this does not work 
+    if x <= test_x <= x_two or x_two <= test_x <= x:
+        print("Your x value is between the endpoints.")
     else:
-        print("Your number x is outside the perimeter")
-    user_input_y = int(input(""))
-    if y <= userInput <= user_y:
-        print("adsm")
-    else:
-        print("Your number x is outside the perimeter")
+        print("Your x value is not between the endpoints")
 
     
-
+print(in_between())
 
 
 
