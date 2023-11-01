@@ -1,6 +1,6 @@
 #path to this file
 #C:\Users\kaiba\cs introduction (you can delete it)\temperature-calculator-1\temperature-calculator\Code\leetcode.py
-
+"""
 
 import random
 numbers_x = [0,1,2,3,4,5,6,7,8,9,10]
@@ -13,9 +13,9 @@ y_two = random.choice(numbers_y)
 #this part checks if the first and second elements are actually correct
 random_coordinate = x, y
 """
-print(random_coordinate)
-print(random_coordinate[0])
-print(random_coordinate[1])
+#print(random_coordinate)
+#print(random_coordinate[0])
+#print(random_coordinate[1])
 """
 #defining global variables so
 global X 
@@ -45,6 +45,36 @@ def in_between()
 
     
 print(in_between())
+"""
+
+
+
+my_list = [123,1,24,5]
+bet = max(my_list)
+print(bet)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
